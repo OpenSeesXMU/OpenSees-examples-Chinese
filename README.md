@@ -12,4 +12,5 @@ OpenSees是一个以科研为目的的学术交流平台，集成了许多美国
 7.通过OpenFresco等技术，能够实现和其他系统的集成以及混合实验等。
 
 上述算例（部分）在《OpenSees实用教程》一书中有详细介绍。
+
 Copyright by 厦门大学建筑与土木工程学院 古泉 <quangu@xmu.edu.cn>
