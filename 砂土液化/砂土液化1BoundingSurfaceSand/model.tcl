@@ -22,7 +22,7 @@ constraints Transformation
 integrator Newmark 1.5 1.
 analysis VariableTransient
 analyze 5 5.0e3 [expr 5.0e3/100] 5.0e3 20;
-updateMaterialStage -material 1 -stage 1
+updateMaterialStage -material 1 -stage 1000
 analyze 3 5.0e3 [expr 5.0e3/100] 5.0e3 20;
 wipeAnalysis
 set P_max 20.0
