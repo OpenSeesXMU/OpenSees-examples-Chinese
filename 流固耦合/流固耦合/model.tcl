@@ -8,7 +8,7 @@ node 5 1.00000 0.0000  1.0000
 node 6 1.00000 1.0000  1.0000
 node 7 0.00000 1.00000 1.0000
 node 8 0.00000 0.00000 1.0000
-nDMaterial TruncatedDP 1 3 2400000 1.4957e+010 1.7677e+010 0.11 2.6614e7 -2.0684e6 1.0e-8
+nDMaterial TruncatedDP 1 3 2400000 1.4957e+010 1.7677e+010 0.11 2.6614e7 -2.0684e6 
 set g 9.8
 set rhog [expr -2400000*$g]
 element bbarBrick 1 1 2 3 4 5 6 7 8 1 0 0 $rhog
@@ -52,7 +52,7 @@ node 14 1.00000 2.0000 1.000000
 node 15 0.00000 2.00000 1.00000
 node 16 0.00000 1.00000 1.0000
 set water 2
-nDMaterial AcousticMedium $water 2.069857690E+09 1000
+nDMaterial AcousticMedium $water 2.07E+09 1000
 element AC3D8 3 9 10 11 12 13 14 15 16 $water
 element ASI3D8 2 2 3 6 7 9 12 13 16
 element AV3D4 4 10 11 15 14 $water
@@ -65,10 +65,10 @@ recorder Node -file node10.out -time -precision 16 -node 10 -dof 1 disp
 puts "Define model acoustic ok...."
 timeSeries Path 1 -dt 0.01 -filePath elcentro.txt -factor 3
 pattern Plain 111 1 {
-load 5 1e6 0 1e6
-load 6 1e6 0 1e6
-load 7 1e6 0 1e6
-load 8 1e6 0 1e6
+load 1 1e6 0 1e6
+load 2 1e6 0 1e6
+load 3 1e6 0 1e6
+load 4 1e6 0 1e6
 }
 wipeAnalysis
 constraints Transformation
