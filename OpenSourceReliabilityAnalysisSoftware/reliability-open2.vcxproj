@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdkZhangMeritFunctionCheck.cpp" />
+    <ClCompile Include="ArmijoStepSizeRule.cpp" />
+    <ClCompile Include="ArrayOfTaggedObjects.cpp" />
+    <ClCompile Include="ArrayOfTaggedObjectsIter.cpp" />
+    <ClCompile Include="BasicGFunEvaluator.cpp" />
+    <ClCompile Include="ChiSquareRV.cpp" />
+    <ClCompile Include="ConstantModulatingFunction.cpp" />
+    <ClCompile Include="CorrelationCoefficient.cpp" />
+    <ClCompile Include="CStdLibRandGenerator.cpp" />
+    <ClCompile Include="CurvaturesBySearchAlgorithm.cpp" />
+    <ClCompile Include="DeltaFilter.cpp" />
+    <ClCompile Include="ExponentialRV.cpp" />
+    <ClCompile Include="Filter.cpp" />
+    <ClCompile Include="FindCurvatures.cpp" />
+    <ClCompile Include="FindDesignPointAlgorithm.cpp" />
+    <ClCompile Include="FiniteDifferenceGradGEvaluator.cpp" />
+    <ClCompile Include="FirstPrincipalCurvature.cpp" />
+    <ClCompile Include="FixedStepSizeRule.cpp" />
+    <ClCompile Include="FORMAnalysis.cpp" />
+    <ClCompile Include="FOSMAnalysis.cpp" />
+    <ClCompile Include="GammaModulatingFunction.cpp" />
+    <ClCompile Include="GammaRV.cpp" />
+    <ClCompile Include="GFunEvaluator.cpp" />
+    <ClCompile Include="GFunVisualizationAnalysis.cpp" />
+    <ClCompile Include="GradGEvaluator.cpp" />
+    <ClCompile Include="GradientProjectionSearchDirection.cpp" />
+    <ClCompile Include="GumbelRV.cpp" />
+    <ClCompile Include="HessianApproximation.cpp" />
+    <ClCompile Include="HLRFSearchDirection.cpp" />
+    <ClCompile Include="ImportanceSamplingAnalysis.cpp" />
+    <ClCompile Include="JonswapSpectrum.cpp" />
+    <ClCompile Include="KooFilter.cpp" />
+    <ClCompile Include="KooModulatingFunction.cpp" />
+    <ClCompile Include="LaplaceRV.cpp" />
+    <ClCompile Include="LimitStateFunction.cpp" />
+    <ClCompile Include="LognormalRV.cpp" />
+    <ClCompile Include="MarkovChainGenerator.cpp" />
+    <ClCompile Include="MatrixOperations.cpp" />
+    <ClCompile Include="MeritFunctionCheck.cpp" />
+    <ClCompile Include="MersenneTwister.cpp" />
+    <ClCompile Include="ModulatingFunction.cpp" />
+    <ClCompile Include="MonteCarloResponseAnalysis.cpp" />
+    <ClCompile Include="NarrowBandSpectrum.cpp" />
+    <ClCompile Include="NatafProbabilityTransformation.cpp" />
+    <ClCompile Include="NormalRV.cpp" />
+    <ClCompile Include="OpenSeesGFunEvaluator.cpp" />
+    <ClCompile Include="OptimalityConditionReliabilityConvergenceCheck.cpp" />
+    <ClCompile Include="OrthogonalPlaneSamplingAnalysis.cpp" />
+    <ClCompile Include="OutCrossingAnalysis.cpp" />
+    <ClCompile Include="ParametricReliabilityAnalysis.cpp" />
+    <ClCompile Include="ParetoRV.cpp" />
+    <ClCompile Include="PointsSpectrum.cpp" />
+    <ClCompile Include="PolakHeSearchDirectionAndMeritFunction.cpp" />
+    <ClCompile Include="ProbabilityTransformation.cpp" />
+    <ClCompile Include="RandomNumberGenerator.cpp" />
+    <ClCompile Include="RayleighRV.cpp" />
+    <ClCompile Include="ReliabilityAnalysis.cpp" />
+    <ClCompile Include="ReliabilityConvergenceCheck.cpp" />
+    <ClCompile Include="ReliabilityDomain.cpp" />
+    <ClCompile Include="RootFinding.cpp" />
+    <ClCompile Include="SafeGuardedZeroFindingAlgorithm.cpp" />
+    <ClCompile Include="SamplingAnalysis.cpp" />
+    <ClCompile Include="SearchDirection.cpp" />
+    <ClCompile Include="SearchWithStepSizeAndStepDirection.cpp" />
+    <ClCompile Include="SecantRootFinding.cpp" />
+    <ClCompile Include="ShiftedExponentialRV.cpp" />
+    <ClCompile Include="ShiftedRayleighRV.cpp" />
+    <ClCompile Include="SORMAnalysis.cpp" />
+    <ClCompile Include="Spectrum.cpp" />
+    <ClCompile Include="SQPsearchDirectionMeritFunctionAndHessian.cpp" />
+    <ClCompile Include="StandardLinearOscillatorAccelerationFilter.cpp" />
+    <ClCompile Include="StandardLinearOscillatorDisplacementFilter.cpp" />
+    <ClCompile Include="StandardLinearOscillatorVelocityFilter.cpp" />
+    <ClCompile Include="StandardReliabilityConvergenceCheck.cpp" />
+    <ClCompile Include="StepSizeRule.cpp" />
+    <ClCompile Include="SubsetSimulationAnalysis.cpp" />
+    <ClCompile Include="SystemAnalysis.cpp" />
+    <ClCompile Include="TclReliabilityBuilder.cpp" />
+    <ClCompile Include="BetaRV.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MovableObject.cpp" />
+    <ClCompile Include="TclMain.cpp" />
+    <ClCompile Include="OPS_Stream.cpp" />
+    <ClCompile Include="RandomVariable.cpp" />
+    <ClCompile Include="reliability.cpp" />
+    <ClCompile Include="ReliabilityDomainComponent.cpp" />
+    <ClCompile Include="TaggedObject.cpp" />
+    <ClCompile Include="TrapezoidalModulatingFunction.cpp" />
+    <ClCompile Include="TruncatedNormalRV.cpp" />
+    <ClCompile Include="Type1LargestValueRV.cpp" />
+    <ClCompile Include="Type1SmallestValueRV.cpp" />
+    <ClCompile Include="Type2LargestValueRV.cpp" />
+    <ClCompile Include="Type3SmallestValueRV.cpp" />
+    <ClCompile Include="UniformRV.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="WeibullRV.cpp" />
+    <ClCompile Include="ZeroFindingAlgorithm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdkZhangMeritFunctionCheck.h" />
+    <ClInclude Include="ArmijoStepSizeRule.h" />
+    <ClInclude Include="ArrayOfTaggedObjects.h" />
+    <ClInclude Include="ArrayOfTaggedObjectsIter.h" />
+    <ClInclude Include="BasicGFunEvaluator.h" />
+    <ClInclude Include="basics.h" />
+    <ClInclude Include="BetaRV.h" />
+    <ClInclude Include="BJmatrix.h" />
+    <ClInclude Include="BJtensor.h" />
+    <ClInclude Include="bool.h" />
+    <ClInclude Include="ChiSquareRV.h" />
+    <ClInclude Include="classTags.h" />
+    <ClInclude Include="ConstantModulatingFunction.h" />
+    <ClInclude Include="CorrelationCoefficient.h" />
+    <ClInclude Include="CStdLibRandGenerator.h" />
+    <ClInclude Include="CurvaturesBySearchAlgorithm.h" />
+    <ClInclude Include="DeltaFilter.h" />
+    <ClInclude Include="DomainComponent.h" />
+    <ClInclude Include="ExponentialRV.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="FindCurvatures.h" />
+    <ClInclude Include="FindDesignPointAlgorithm.h" />
+    <ClInclude Include="FiniteDifferenceGradGEvaluator.h" />
+    <ClInclude Include="FirstPrincipalCurvature.h" />
+    <ClInclude Include="FixedStepSizeRule.h" />
+    <ClInclude Include="FORMAnalysis.h" />
+    <ClInclude Include="FOSMAnalysis.h" />
+    <ClInclude Include="GammaModulatingFunction.h" />
+    <ClInclude Include="GammaRV.h" />
+    <ClInclude Include="GFunEvaluator.h" />
+    <ClInclude Include="GFunVisualizationAnalysis.h" />
+    <ClInclude Include="GradGEvaluator.h" />
+    <ClInclude Include="GradientProjectionSearchDirection.h" />
+    <ClInclude Include="GumbelRV.h" />
+    <ClInclude Include="HessianApproximation.h" />
+    <ClInclude Include="HLRFSearchDirection.h" />
+    <ClInclude Include="ID.h" />
+    <ClInclude Include="ImportanceSamplingAnalysis.h" />
+    <ClInclude Include="Information.h" />
+    <ClInclude Include="JonswapSpectrum.h" />
+    <ClInclude Include="KooFilter.h" />
+    <ClInclude Include="KooModulatingFunction.h" />
+    <ClInclude Include="LaplaceRV.h" />
+    <ClInclude Include="LimitStateFunction.h" />
+    <ClInclude Include="LognormalRV.h" />
+    <ClInclude Include="MarkovChainGenerator.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MatrixOperations.h" />
+    <ClInclude Include="MeritFunctionCheck.h" />
+    <ClInclude Include="MersenneTwister.h" />
+    <ClInclude Include="ModulatingFunction.h" />
+    <ClInclude Include="MonteCarloResponseAnalysis.h" />
+    <ClInclude Include="MovableObject.h" />
+    <ClInclude Include="NarrowBandSpectrum.h" />
+    <ClInclude Include="NatafProbabilityTransformation.h" />
+    <ClInclude Include="nDarray.h" />
+    <ClInclude Include="NormalRV.h" />
+    <ClInclude Include="OpenSeesGFunEvaluator.h" />
+    <ClInclude Include="OPS_Globals.h" />
+    <ClInclude Include="OPS_Stream.h" />
+    <ClInclude Include="OptimalityConditionReliabilityConvergenceCheck.h" />
+    <ClInclude Include="OrthogonalPlaneSamplingAnalysis.h" />
+    <ClInclude Include="OutCrossingAnalysis.h" />
+    <ClInclude Include="ParametricReliabilityAnalysis.h" />
+    <ClInclude Include="ParetoRV.h" />
+    <ClInclude Include="PointsSpectrum.h" />
+    <ClInclude Include="PolakHeSearchDirectionAndMeritFunction.h" />
+    <ClInclude Include="ProbabilityTransformation.h" />
+    <ClInclude Include="RandomNumberGenerator.h" />
+    <ClInclude Include="RandomVariable.h" />
+    <ClInclude Include="RandomVariablePositioner.h" />
+    <ClInclude Include="RayleighRV.h" />
+    <ClInclude Include="ReliabilityAnalysis.h" />
+    <ClInclude Include="ReliabilityConvergenceCheck.h" />
+    <ClInclude Include="ReliabilityDomain.h" />
+    <ClInclude Include="ReliabilityDomainComponent.h" />
+    <ClInclude Include="RootFinding.h" />
+    <ClInclude Include="SafeGuardedZeroFindingAlgorithm.h" />
+    <ClInclude Include="SamplingAnalysis.h" />
+    <ClInclude Include="SearchDirection.h" />
+    <ClInclude Include="SearchWithStepSizeAndStepDirection.h" />
+    <ClInclude Include="SecantRootFinding.h" />
+    <ClInclude Include="ShiftedExponentialRV.h" />
+    <ClInclude Include="ShiftedRayleighRV.h" />
+    <ClInclude Include="SORMAnalysis.h" />
+    <ClInclude Include="Spectrum.h" />
+    <ClInclude Include="SQPsearchDirectionMeritFunctionAndHessian.h" />
+    <ClInclude Include="StandardLinearOscillatorAccelerationFilter.h" />
+    <ClInclude Include="StandardLinearOscillatorDisplacementFilter.h" />
+    <ClInclude Include="StandardLinearOscillatorVelocityFilter.h" />
+    <ClInclude Include="StandardReliabilityConvergenceCheck.h" />
+    <ClInclude Include="StepSizeRule.h" />
+    <ClInclude Include="SubsetSimulationAnalysis.h" />
+    <ClInclude Include="SystemAnalysis.h" />
+    <ClInclude Include="TaggedObject.h" />
+    <ClInclude Include="TaggedObjectIter.h" />
+    <ClInclude Include="TaggedObjectStorage.h" />
+    <ClInclude Include="TclGFunEvaluator.h" />
+    <ClInclude Include="TclReliabilityBuilder.h" />
+    <ClInclude Include="Tensor.h" />
+    <ClInclude Include="TrapezoidalModulatingFunction.h" />
+    <ClInclude Include="TruncatedNormalRV.h" />
+    <ClInclude Include="Type1LargestValueRV.h" />
+    <ClInclude Include="Type1SmallestValueRV.h" />
+    <ClInclude Include="Type2LargestValueRV.h" />
+    <ClInclude Include="Type3SmallestValueRV.h" />
+    <ClInclude Include="UniformRV.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="WeibullRV.h" />
+    <ClInclude Include="ZeroFindingAlgorithm.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{01F12EB5-A148-423C-960E-26D50FB4628A}</ProjectGuid>
+    <RootNamespace>reliabilityopen2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Tcl\include;C:\Users\dell\Desktop\reliability-open2\reliability-open2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Tcl\lib;C:\Users\dell\Desktop\reliability-open2;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/Cmake/test43/CMakeLists.txt
+D:/Cmake/test43/build/CMakeFiles/3.18.0-rc1/CMakeCCompiler.cmake
+D:/Cmake/test43/build/CMakeFiles/3.18.0-rc1/CMakeCXXCompiler.cmake
+D:/Cmake/test43/build/CMakeFiles/3.18.0-rc1/CMakeRCCompiler.cmake
+D:/Cmake/test43/build/CMakeFiles/3.18.0-rc1/CMakeSystem.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeCInformation.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeRCInformation.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Platform/Windows.cmake
+D:/Program Files (x86)/cmake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake

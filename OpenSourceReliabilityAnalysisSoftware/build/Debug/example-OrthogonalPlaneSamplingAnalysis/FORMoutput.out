@@ -1,0 +1,19 @@
+#######################################################################
+#  FORM ANALYSIS RESULTS, LIMIT-STATE FUNCTION NUMBER 1               #
+#                                                                     #
+#  Limit-state function value at start point: ......... 0.24286       #
+#  Limit-state function value at end point: ........... -4.2537e-006  #
+#  Norm of gradient at design point ................... 0.13073       #
+#  Number of steps: ................................... 3             #
+#  Number of g-function evaluations: .................. 17            #
+#  Reliability index beta: ............................ 1.9915        #
+#  FO approx. probability of failure, pf1: ............ 0.023215      #
+#                                                                     #
+# rv#     x*          u*         alpha    gamma    delta    eta       #
+#  1    1.955e+005 -1.408e+000 -0.70709 -0.70709     -        -       #
+#  2    3.546e+002  0.000e+000  0.00000  0.00000     -        -       #
+#  3    3.617e+005  1.408e+000  0.70713  0.70713     -        -       #
+#                                                                     #
+#######################################################################
+
+
