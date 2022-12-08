@@ -13,20 +13,16 @@ set Fx 0
 set My 0
 
 
+set Fx1 [nodeReaction 1 1]
+set Fx2 [nodeReaction 4 1]
+set Fx [expr $Fx1+$Fx2]
+set Fy1 [nodeReaction 1 2]
+set Fy2 [nodeReaction 4 2]
+set My1 [nodeReaction 1 3]
+set My2 [nodeReaction 4 3]
 
 
-    # scan $theAccel "%f   %e  %e  %e   %e"  time accel_2_x  accel_2_y   accel_3_x  accel_3_y
-     
-    set accel_2_x [nodeAccel 2 1]
-    set accel_2_y [nodeAccel 2 2] 
-    set accel_3_x [nodeAccel 3 1]
-    set accel_3_y [nodeAccel 3 2] 
-
-     
-#  注意： 新版本中有直接记录节点反力的命令，下面计算可被简化！
-#  note this accel_x is already absolute one.
-		set Fx [expr $Fx+$Me*$accel_2_x+$Me*$accel_3_x ]
-		set My [expr $My-$Me*$accel_2_x*$H-$Me*$accel_3_x*$H -$Me*$accel_2_y*$L/2.0+$Me*$accel_3_y*$L/2.0 ]
+set My [expr $Fy1*$L/2-$Fy2*$L/2-$My1-$My2]
 
 
 }

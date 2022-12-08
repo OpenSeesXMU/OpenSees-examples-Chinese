@@ -91,9 +91,13 @@ set ksi  0.02
 set a0 [expr $ksi*2.0*$w1*$w2/($w1+$w2)]
 set a1 [expr $ksi*2.0/($w1+$w2)]
 
-#  integrator Newmark $gamma       $beta            <$alphaM         $betaK             $betaKinit $betaKcomm> 
-integrator Newmark        0.5       0.25              $a0            $a1               0.             0.
+#  integrator Newmark $gamma       $beta          
+integrator Newmark        0.5       0.25  
+#  rayleigh  <$alphaM         $betaK             $betaKinit $betaKcomm>  
+rayleigh $a0   0.0 $a1   0.0        
 analysis Transient
 
+recorder Node -file disp.out -time -node 2 3 -dof 1 2 3 disp
+recorder Node -file reaction.out -time -node 1 4 -dof 1 2 3 reaction
 
 
